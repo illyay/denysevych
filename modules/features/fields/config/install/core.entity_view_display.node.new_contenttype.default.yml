@@ -1,0 +1,54 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.new_contenttype.body
+    - field.field.node.new_contenttype.field_country
+    - field.field.node.new_contenttype.field_dateandtime
+    - field.field.node.new_contenttype.field_image
+    - image.style.thumbnail
+    - node.type.new_contenttype
+  module:
+    - datetime
+    - image
+    - text
+    - user
+id: node.new_contenttype.default
+targetEntityType: node
+bundle: new_contenttype
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  field_country:
+    weight: 104
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_dateandtime:
+    weight: 103
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+  field_image:
+    weight: 102
+    label: above
+    settings:
+      image_style: thumbnail
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

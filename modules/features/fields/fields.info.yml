@@ -1,0 +1,18 @@
+name: MYFields
+description: MYFields
+type: module
+core: 8.x
+dependencies:
+  - comment
+  - datetime
+  - field
+  - field_collection
+  - file
+  - image
+  - link
+  - options
+  - path
+  - telephone
+  - text
+  - user
+version: 8.x-1.0

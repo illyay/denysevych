@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.new_contact_form
+    - field.storage.contact_message.field_names
+  module:
+    - text
+id: contact_message.new_contact_form.field_names
+field_name: field_names
+entity_type: contact_message
+bundle: new_contact_form
+label: Name
+description: 'Please, write you name'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

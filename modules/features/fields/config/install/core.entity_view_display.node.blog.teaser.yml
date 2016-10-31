@@ -1,0 +1,35 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.blog.body
+    - field.field.node.blog.field_categories
+    - field.field.node.blog.field_comments
+    - field.field.node.blog.field_image
+    - field.field.node.blog.field_link
+    - field.field.node.blog.field_priority
+    - node.type.blog
+  module:
+    - text
+    - user
+id: node.blog.teaser
+targetEntityType: node
+bundle: blog
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden:
+  field_categories: true
+  field_comments: true
+  field_image: true
+  field_link: true
+  field_priority: true

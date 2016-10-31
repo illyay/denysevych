@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_dateandtime
+    - node.type.new_contenttype
+  module:
+    - datetime
+id: node.new_contenttype.field_dateandtime
+field_name: field_dateandtime
+entity_type: node
+bundle: new_contenttype
+label: DateAndTime
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

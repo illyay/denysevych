@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.new_contact_form
+    - field.storage.contact_message.field_email
+id: contact_message.new_contact_form.field_email
+field_name: field_email
+entity_type: contact_message
+bundle: new_contact_form
+label: Email
+description: 'Please, write your email'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

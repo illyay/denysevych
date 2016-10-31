@@ -1,0 +1,47 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.new_contact_form
+    - field.field.contact_message.new_contact_form.field_description
+    - field.field.contact_message.new_contact_form.field_email
+    - field.field.contact_message.new_contact_form.field_names
+    - field.field.contact_message.new_contact_form.field_subject
+  module:
+    - text
+id: contact_message.new_contact_form.default
+targetEntityType: contact_message
+bundle: new_contact_form
+mode: default
+content:
+  field_description:
+    weight: 4
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_email:
+    weight: 1
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  field_names:
+    weight: 0
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_subject:
+    weight: 2
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  message:
+    type: basic_string
+    weight: 3
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

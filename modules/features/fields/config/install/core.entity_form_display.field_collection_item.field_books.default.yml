@@ -1,0 +1,37 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.field_collection_item.field_books.field_link_to_autor
+    - field.field.field_collection_item.field_books.field_pdf
+    - field.field.field_collection_item.field_books.field_title
+    - field_collection.field_collection.field_books
+  module:
+    - file
+    - link
+id: field_collection_item.field_books.default
+targetEntityType: field_collection_item
+bundle: field_books
+mode: default
+content:
+  field_link_to_autor:
+    weight: 3
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+  field_pdf:
+    weight: 2
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+  field_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+hidden: {  }
