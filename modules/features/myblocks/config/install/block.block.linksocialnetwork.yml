@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b4f218d8-f674-41fa-a79b-2f51afd217e2'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: linksocialnetwork
+theme: bartik
+region: sidebar_second
+weight: -7
+provider: null
+plugin: 'block_content:b4f218d8-f674-41fa-a79b-2f51afd217e2'
+settings:
+  id: 'block_content:b4f218d8-f674-41fa-a79b-2f51afd217e2'
+  label: 'Link social network'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

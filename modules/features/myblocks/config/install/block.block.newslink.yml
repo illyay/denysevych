@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:link:e6cd081f-85ad-4074-bbb0-759b43ae4874'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: newslink
+theme: bartik
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'block_content:e6cd081f-85ad-4074-bbb0-759b43ae4874'
+settings:
+  id: 'block_content:e6cd081f-85ad-4074-bbb0-759b43ae4874'
+  label: 'news link'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

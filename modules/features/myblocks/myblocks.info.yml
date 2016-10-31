@@ -1,0 +1,13 @@
+name: MyBlocks
+description: MyBlocks
+type: module
+core: 8.x
+dependencies:
+  - block
+  - block_content
+  - contact_block
+  - help
+  - search
+  - system
+  - user
+version: 8.x-1.0
