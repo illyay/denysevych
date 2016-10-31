@@ -1,0 +1,9 @@
+name: 'content type my'
+description: 'content type my'
+type: module
+core: 8.x
+dependencies:
+  - menu_ui
+  - node
+  - rdf
+version: 8.x-1.0
