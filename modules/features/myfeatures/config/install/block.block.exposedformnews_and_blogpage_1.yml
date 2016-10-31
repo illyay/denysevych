@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.news_and_blog
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: exposedformnews_and_blogpage_1
+theme: bartik
+region: highlighted
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:news_and_blog-page_1'
+settings:
+  id: 'views_exposed_filter_block:news_and_blog-page_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: /news-and-blog
+    negate: false
+    context_mapping: {  }
