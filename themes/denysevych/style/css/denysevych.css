@@ -1,0 +1,106 @@
+.page-wrapper {
+  background-color: #fcfcfc;
+}
+
+div#block-denysevych-content {
+  background-color: #fff;
+}
+
+body {
+  color: #f00;
+  margin-top: -20px;
+}
+
+#omega-screen--indicator {
+	display: none;
+}
+
+nav#block-denysevych-main-menu .menu{
+	color: #fff;
+	margin: 20px 0px;
+}
+nav#block-denysevych-main-menu .menu .menu-item {
+	color: #fff;
+	border-left: 1px solid #fff;
+	padding: 10px 20px;
+}
+
+nav#block-denysevych-main-menu .menu .menu-item a{
+	color: #fff;
+}
+
+header {
+	height: 60px;
+border-bottom: 1px solid #314D68;
+background: #314D68;
+}
+
+#logo {
+	margin-top: 8px;
+}
+
+.menu_header {
+	float: right;
+	margin-top: -13px;
+}
+
+nav#block-denysevych-main-menu .menu .menu-item .is-active {
+	color: rgb(161, 255, 242);
+}
+
+.banner{
+	background: url(/sites/default/files/inline-images/a.jpg) no-repeat center 0px;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+min-height: 700px;
+position: relative;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1170px;
+}
+
+.banner-text {
+    text-align: center;
+    width: 57%;
+    padding-top: 13%;
+}
+
+.banner-text h4 {
+    color: #fff;
+    font-size: 3.5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin: 0px;
+}
+
+.banner-text h2 {
+    color: #fff;
+    font-size: 9em;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+    line-height: 1em;
+    margin: 0px;
+}
+
+.banner-text h3 {
+    color: #FF69B4;
+    font-size: 5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    margin: 0.5em 0 .2em;
+    margin: 0px;
+}
+
+.banner-text p {
+    color: #fff;
+    font-size: 1em;
+    line-height: 2em;
+    font-weight: 300;
+    margin: 0px;
+}

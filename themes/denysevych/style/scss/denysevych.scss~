@@ -1,0 +1,10 @@
+// Default Variable Import
+
+.page-wrapper{
+background-color: rgb(252, 252, 252);
+}
+
+div#block-denysevych-content{
+background-color:#fff;
+}
+/* SAMPLE SCSS FILE CONTENTS */
